@@ -13,6 +13,10 @@ function Card() {
   return (
     <div>
       <motion.main
+        animate={{
+          scale: [0, 1],
+          transition: { duration: 0.5 },
+        }}
         style={{ x, y, rotateX, rotateY, z: 100 }}
         drag
         dragElastic={0.18}
@@ -21,7 +25,7 @@ function Card() {
         className="card"
       >
         <h1>NFT Preview Card Component</h1>
-        <motion.div style={{  rotateX, rotateY, z: 10000 }}>
+        <motion.div style={{ rotateX, rotateY, z: 10000 }}>
           <Card_picture />
         </motion.div>
         <Card_info />
