@@ -1,6 +1,10 @@
 .card_picture {
-  width: 100%;
-  position: relative;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 300px;
+  cursor: pointer;
 
   img {
     width: 100%;
@@ -15,16 +19,18 @@
     border-radius: 10px;
     opacity: 0.7;
     background-image: url("../assets/images/icon-view.svg");
-    background-position: 50% -100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: 48px;
-    background-color: $dark-cyan;
+    background-color: $cyan;
     visibility: hidden;
-    transition: 0.3s;
+    transition: 0.4s;
+    clip-path: circle(1.8% at 50% 50%);
   }
 
   &:hover::before {
-    background-position: center;
+    width: 100%;
     visibility: visible;
+    clip-path: circle(71.2% at 50% 50%);
   }
 }

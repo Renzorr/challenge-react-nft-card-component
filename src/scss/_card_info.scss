@@ -1,5 +1,5 @@
 .card_info {
-  padding-block: 22px;
+  padding-block: 326px 22px;
   border-bottom: 1px solid $line;
 }
 
@@ -7,7 +7,7 @@
   font-size: 22.2px;
   font-weight: 500;
   color: $white;
-  transition: 0.3s;
+  transition: 0.4s;
 
   &:hover {
     color: $cyan;
@@ -43,6 +43,6 @@
   text-transform: uppercase;
 }
 
-.data_day{
-    color: $gray;
+.data_day {
+  color: $gray;
 }

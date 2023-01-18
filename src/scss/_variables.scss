@@ -1,7 +1,6 @@
 $gray: rgb(139 172 218);
-$dark-cyan: rgb(5 173 168);
-$cyan: rgb(0 255 247);
+$cyan: #53b6e7;
 $line: rgb(47 65 91);
 $white: rgb(255 255 255);
-$bg-body: rgb(13 25 43);
-$bg-card: rgb(20 37 61);
+$bg-body: linear-gradient(-10deg, rgb(17 3 3 / 100%) 0%, #084079 100%);
+$bg-card: linear-gradient(360deg, rgb(17 3 3 / 80%) 20%, #19668d 100%);
