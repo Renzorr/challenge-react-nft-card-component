@@ -12,11 +12,11 @@ function Card_info() {
       </p>
       <div className="card_info_data">
         <div className="data">
-          <img src={coin} alt-hidden="true" />
+          <img src={coin} arial-hidden="true" />
           <span className="data_content data_price">0.041 eth</span>
         </div>
         <div className="data">
-          <img src={clock} alt-hidden="true" />
+          <img src={clock} arial-hidden="true" />
           <span className="data_content data_day">3 days left</span>
         </div>
       </div>
